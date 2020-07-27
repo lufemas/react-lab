@@ -28,9 +28,9 @@ export default function Product({product}){
         <p className="jr col-m-9">{product.description}</p>
       </div>
 
-      <div className="jr flex-row between">
+      <div className="jr flex-row between p-1">
         <p><em>CDN$</em> {product.price}</p>
-        <button className="jr button" onClick={handleAddToCart}>Add to Cart</button>
+        <button className="jr button m-0" onClick={handleAddToCart}>Add to Cart</button>
 
       </div>
 
